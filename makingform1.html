@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Making Form</title>
+		<link rel="stylesheet" href="makingform1.css"/>
+		<meta cherset="UTF-8"/>
+	</head>
+	<body>
+		<form action="" method="">
+			<fieldset><br/>
+				<legend>This is My Form</legend>
+			  <div>
+				<label for="name">Name:</label>
+				<input type="text" name="name" id="name"/>
+			  </div><br/>
+			  <div>
+				<label for="Email">Email:</label>
+				<input type="email" name="email" id="email"/>
+			  </div><br/>
+			  <div>
+				<label for="password">password:</label>
+				<input type="password" name="pasworde" id="pasword"/>
+			  </div><br/>
+			  <div>
+				<label for="dob">data of Birth:</label>
+				<input type="date" min="01-02-1960" max="01-02-2030" name="dob" id="dob"/>
+			  </div><br/>
+			 <div>
+				<label for="photo">Choose Your Photo</label>
+				<input type="file" name="photo" id="photo"/>
+			 </div><br/>
+			 <div>
+				<label for="gender">Gender:</label>
+				<input type="radio" name="gender" id="gender"/>Male
+				<input type="radio" name="gender" id="gender"/>Female
+			 </div><br/>
+			 <div>
+				<label for="religion">Religion:</label>
+				<input type="checkbox" name="religion" id="religion"/>Islam
+				<input type="checkbox" name="religion" id="religion"/>Hindu
+			 </div><br/>
+			 <div>
+				<label for="country">country</label>
+				<select name="country">
+					<option value="Bangladesh">Bangladesh</option>
+					<option value="India">India</option>
+					<option value="Pakistan" selected>Pakistan</option>
+				</select>
+			 </div><br/>
+			 <div>
+				<label for="Age">Age:</label>
+				<input type="number" min="18" name="age" id="age"/>
+			 </div><br/>
+				<label for="color">Color:</label>
+				<input type="color"/><br/><br/>
+			<div>
+				<label for="text">Write something</label>
+				<textarea rows="10" cols="50">Write your address.</textarea>
+			</div><br/>
+				<input type="submit" value="Register"/>
+				<input type="Reset" value="reset"/>
+			</fieldset>
+		</form>
+	</body>
+</html>

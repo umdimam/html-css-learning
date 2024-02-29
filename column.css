@@ -1,0 +1,41 @@
+*{margin:0;padding:0}
+.wrapper{
+	width:960px;
+	margin:20px auto;
+}
+.column img{
+	width:294px;
+	height:150px;
+	border:3px solid red;
+}
+.column h2{
+	color:orange;
+	text-align:center;
+}
+.column p{
+	color:green;
+	text-align:justify;
+}
+.column{
+	width:300px;
+	float:left;
+	margin-right:30px;
+}
+.nomargin{
+	margin-right:0px;
+}
+.column a{
+	text-decoration:none;
+	background-color:yellow;
+	padding:3px;
+	color:red;
+	margin:0 auto;
+	display:block;
+	text-align:center;
+	margin-top:5px;
+	transition:all 2s ease;
+}
+.column a:hover{
+	background:#000;
+	color:#fff;
+}

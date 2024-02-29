@@ -1,0 +1,12 @@
+p{
+	color:red;
+}
+.first{
+	color:blue; text-decoration:overline;
+}
+#imam{
+	color:green; text-decoration:line-through;
+}
+.third{
+	font-weight:bold; text-decoration:underline;
+}

@@ -1,0 +1,29 @@
+input[type=text]{
+	width:150px;
+	height:30px;
+	color:blue;
+	font-weight:bold;
+	border:2px solid red;
+	border-radius:5px;
+}
+label{
+	color:blue;
+}
+textarea{
+	color:green;
+}
+input[type=submit]{
+	width:100px;
+	height:25px;
+	border:2px soloid green;
+	border-radius:5px;
+	color:red;
+}
+input[type=reset]{
+	width:100px;
+	height:25px;
+	border:2px soloid green;
+	border-radius:5px;
+	color:red;
+	padding:5px;
+}

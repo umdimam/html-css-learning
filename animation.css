@@ -1,0 +1,66 @@
+.animation3{
+	width:200px;
+	height:200px;
+	background:red;
+	-webkit-animation-name:imam;
+	animation-name:imam;
+	-webkit-animation-duration:3s;
+	animation-duration:3s;
+	-webkit-animation-iteration-count:infinite;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+}
+@-webkit-keyframes imam{
+	from{background-color:red;}
+	to{background-color:green; border-radius:50%;}
+}
+.animation1{
+	width:250px;
+	height:200px;
+	background:yellow;
+	animation-name:uddin;
+	animation-duration:6s;
+	animation-iteration-count:5;
+	animation-delay:3s;
+}
+@keyframes uddin{
+	0%{background-color:red;}
+	25{background-color:white;}
+	50%{background-color:blue;}
+	75%{background-color:green;}
+	100%{background-color:grey; border-radius:50%;}
+	
+}
+.animation2{
+	width:200px;
+	height:150px;
+	background:yellow;
+	position:relative;
+	animation-name:mamun;
+	animation-duration:5s;
+	animation-iteration-count:infinite;
+	animation-delay:1s;
+	animation-direction:alternate;
+}
+@keyframes mamun{
+	from{left:0;}
+	to{left:500px; border-radius:40%;}
+}
+.mydiv{
+	width:100px;
+	height:100px;
+	background:red;
+	position:relative;
+	animation-name:abdullah;
+	animation-duration:6s;
+	animation-iteration-count:infinite;
+	animation-direction:reverse;
+	animation-delay:1s;
+}
+@keyframes abdullah{
+	0%{left:0; top:0; background:red;}
+	25%{left:300px; top:0px; background:green;}
+	50%{left:300px; top:300px; background:blue;}
+	75%{left:0px; top:300px; background:yellow;}
+	100%{left:0px; top:0px; background:red;}
+}

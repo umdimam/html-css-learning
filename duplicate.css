@@ -1,0 +1,21 @@
+table{
+		width:500px;
+		margin:50px auto;
+		text-align:center;
+		background-color:#ddd;
+}
+table,th,td{
+		border:3px solid red;
+		border-collapse:collapse;
+}
+table caption{
+		background-color:blue;
+		color:white;
+}
+.foot1{
+		background-color:green;
+		color:white;
+}
+.foot2{
+		text-align:left;
+}

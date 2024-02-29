@@ -1,0 +1,23 @@
+table{
+		width:500px;
+		height:200px;
+		background-color:#ddd;
+		text-align:center;
+		margin:50px auto;
+		
+}
+table, th, td{
+		border-collapse:collapse;
+		border:2px solid red;
+}
+.table1{
+		text-align:left;
+}
+.foot1{
+		background-color:green;
+		color:white;
+}
+table caption{
+		background-color:blue;
+		color:white;
+}
